@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\views\\home\\svtt_cauhinh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\home\\svtt_cauhinh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|d:\\c\u00F4ng vi\u1EC7c\\chicucthuequan12\\thuctap2\\thuctap2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\models\\databasemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\models\\databasemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ThucTap2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\thuctap2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48E9BDCE-1190-49AA-B711-FC28F57F58B7}|ThucTap2\\ThucTap2.csproj|solutionrelative:thuctap2\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "ThucTap2\\App_Start\\BundleConfig.cs",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "ThucTap2\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T03:53:09.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ThucTap2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:01:56.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ThucTap2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T03:35:32.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DatabaseModel.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Models\\DatabaseModel.edmx",
+              "RelativeDocumentMoniker": "ThucTap2\\Models\\DatabaseModel.edmx",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Models\\DatabaseModel.edmx [Diagram1]",
+              "RelativeToolTip": "ThucTap2\\Models\\DatabaseModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-12-05T03:12:23.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "ThucTap2\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "ThucTap2\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:16:51.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Web.config",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\Web.config",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Web.config",
+              "RelativeToolTip": "ThucTap2\\Views\\Web.config",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-05T02:14:02.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\favicon.ico",
+              "RelativeDocumentMoniker": "ThucTap2\\favicon.ico",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "ThucTap2\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-12-05T01:53:12.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ThucTap2\\Global.asax.cs",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Global.asax.cs",
+              "RelativeToolTip": "ThucTap2\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T01:53:08.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\packages.config",
+              "RelativeDocumentMoniker": "ThucTap2\\packages.config",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\packages.config",
+              "RelativeToolTip": "ThucTap2\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-05T01:53:07.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Web.config",
+              "RelativeDocumentMoniker": "ThucTap2\\Web.config",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Web.config",
+              "RelativeToolTip": "ThucTap2\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAADYAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-05T01:53:01.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ThucTap2\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "ThucTap2\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T01:52:14.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SVTT_CauHinh.cshtml",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\SVTT_CauHinh.cshtml",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\Home\\SVTT_CauHinh.cshtml",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\SVTT_CauHinh.cshtml",
+              "RelativeToolTip": "ThucTap2\\Views\\Home\\SVTT_CauHinh.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:06:27.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ThucTap2",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\ThucTap2.csproj",
+              "RelativeDocumentMoniker": "ThucTap2\\ThucTap2.csproj",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\ThucTap2.csproj",
+              "RelativeToolTip": "ThucTap2\\ThucTap2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-03T03:25:04.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "ThucTap2\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:16:15.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "ThucTap2\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:16:14.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ThucTap2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:16:12.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ThucTap2\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ThucTap2\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T03:16:03.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ThucTap2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C\u00F4ng vi\u1EC7c\\ChiCucThueQuan12\\ThucTap2\\ThucTap2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ThucTap2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T03:01:39.621Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

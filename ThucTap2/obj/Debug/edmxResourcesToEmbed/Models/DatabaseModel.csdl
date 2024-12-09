@@ -1,0 +1,1589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBA12Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DB2401">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2402">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2403">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2404">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2405">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2406">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2407">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2408">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2409">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2410">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2411">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="DB2412">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaCoQuan" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="TenCoQuan" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="NguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaNganhKDC" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenNganhNgheKDC" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="SoNhaDuongPho" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhuongXa" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhuongXa" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuanHuyen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuanHuyen" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaTinhThanhPho" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenTinhThanhPho" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="MaQuocGia" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenQuocGia" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TongSoLaoDong" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="NganhNgheKinhDoanh" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenGiamDoc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTGiamDoc" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TenKeToanTruong" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DTKeToanTruong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayTo" Type="String" MaxLength="14" FixedLength="true" Unicode="false" />
+    <Property Name="NgayCap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiGiayTo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaNguoiDaiDien" Type="String" MaxLength="50" FixedLength="true" Unicode="false" />
+    <Property Name="SoGiayToKhac" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PhuongPhapTinhThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="SoCMNDCuaChuDoanhNghiep" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoGiayChungNhanDKKD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapGiayChungNhanDKKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="NgayQuyetDinhThanhLap" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgayCapHopDong" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CoChiNhanh" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SoCMND" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieu" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Khoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="LoaiNguoiNopThue" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTCaNhan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThaiDKTToChuc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NgayNhanToKhai" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiHinhKinhTe" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TamNghiTuNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TamNghiDenNgay" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoTamNghi" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="LyDoDongMSTCaNhan" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTCaNhan" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LyDoDongMSTTCToChuc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NgayDongTTToChuc" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NoiSinh" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="QuocTich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SoHoChieuCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoTheQuanNhanCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoGiayThongHanhCuaCDN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="VonKinhDoanh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNSNN" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonNuocNgoai" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NguonVonKhac" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="NgayBatDauKD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiBan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SoMayLe" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DienThoaiDiDong" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DiaChiEmail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="SoTaiKhoan" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="TenNganHang1" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="HThucHToan" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="NamTaiChinhTu" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NamTaiChinhDen" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EmailThongBao" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="PC2401">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2402">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2403">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2404">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2405">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2406">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2407">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2408">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2409">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2410">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2411">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="PC2412">
+    <Key>
+      <PropertyRef Name="MaSoThue" />
+    </Key>
+    <Property Name="MaSoThue" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TenNguoiNopThue" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="MaPhong" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhong" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQL" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQL" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ThoiGianTD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CQTQuanLy" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="MaPhongMoi" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="TenPhongMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="MaCBQLMoi" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TenCBQLMoi" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CQTThucHien" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="NNT" Type="String" MaxLength="14" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ThoiGianTao" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NguoiDoi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NgayTD" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="ST2401">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2402">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2403">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2404">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2405">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2406">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2407">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2408">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2409">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2410">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2411">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ST2412">
+    <Key>
+      <PropertyRef Name="Madtnt" />
+    </Key>
+    <Property Name="Kythue" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="Madtnt" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tendtnt" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Chuong" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <Property Name="Tmuc" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="DkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="DkHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsTruyThu" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsGiam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsXoaNo" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanNT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsHoanKT" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PsDaHoan" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkNop" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkTam" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CkHoan" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityContainer Name="DBA12Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DB2401" EntityType="Self.DB2401" />
+    <EntitySet Name="DB2402" EntityType="Self.DB2402" />
+    <EntitySet Name="DB2403" EntityType="Self.DB2403" />
+    <EntitySet Name="DB2404" EntityType="Self.DB2404" />
+    <EntitySet Name="DB2405" EntityType="Self.DB2405" />
+    <EntitySet Name="DB2406" EntityType="Self.DB2406" />
+    <EntitySet Name="DB2407" EntityType="Self.DB2407" />
+    <EntitySet Name="DB2408" EntityType="Self.DB2408" />
+    <EntitySet Name="DB2409" EntityType="Self.DB2409" />
+    <EntitySet Name="DB2410" EntityType="Self.DB2410" />
+    <EntitySet Name="DB2411" EntityType="Self.DB2411" />
+    <EntitySet Name="DB2412" EntityType="Self.DB2412" />
+    <EntitySet Name="PC2401" EntityType="Self.PC2401" />
+    <EntitySet Name="PC2402" EntityType="Self.PC2402" />
+    <EntitySet Name="PC2403" EntityType="Self.PC2403" />
+    <EntitySet Name="PC2404" EntityType="Self.PC2404" />
+    <EntitySet Name="PC2405" EntityType="Self.PC2405" />
+    <EntitySet Name="PC2406" EntityType="Self.PC2406" />
+    <EntitySet Name="PC2407" EntityType="Self.PC2407" />
+    <EntitySet Name="PC2408" EntityType="Self.PC2408" />
+    <EntitySet Name="PC2409" EntityType="Self.PC2409" />
+    <EntitySet Name="PC2410" EntityType="Self.PC2410" />
+    <EntitySet Name="PC2411" EntityType="Self.PC2411" />
+    <EntitySet Name="PC2412" EntityType="Self.PC2412" />
+    <EntitySet Name="ST2401" EntityType="Self.ST2401" />
+    <EntitySet Name="ST2402" EntityType="Self.ST2402" />
+    <EntitySet Name="ST2403" EntityType="Self.ST2403" />
+    <EntitySet Name="ST2404" EntityType="Self.ST2404" />
+    <EntitySet Name="ST2405" EntityType="Self.ST2405" />
+    <EntitySet Name="ST2406" EntityType="Self.ST2406" />
+    <EntitySet Name="ST2407" EntityType="Self.ST2407" />
+    <EntitySet Name="ST2408" EntityType="Self.ST2408" />
+    <EntitySet Name="ST2409" EntityType="Self.ST2409" />
+    <EntitySet Name="ST2410" EntityType="Self.ST2410" />
+    <EntitySet Name="ST2411" EntityType="Self.ST2411" />
+    <EntitySet Name="ST2412" EntityType="Self.ST2412" />
+  </EntityContainer>
+</Schema>
